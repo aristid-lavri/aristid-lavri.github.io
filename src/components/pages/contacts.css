@@ -1,0 +1,56 @@
+.cont-contente {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.user-info {
+  text-align: center;
+  border-right: 1px dotted black;
+  padding-right: 40px;
+}
+
+.user-info h2,
+.user-contacts h2 {
+  font-weight: 800;
+  font-size: 29px;
+  color: #9a3497;
+}
+
+.user-image img {
+  border-radius: 128px;
+  height: 256px;
+}
+
+.user-info p {
+  text-align: center;
+  width: 350px;
+}
+
+.user-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 192px; */
+  width: 100%;
+  padding-left: 40px;
+}
+
+.contact-info {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contact-info svg {
+  font-size: 1.8 rem;
+  color: #8d38a8;
+  margin-right: 15px;
+}
+
+.contact-info span {
+  color: #1d73e4;
+  text-decoration: underline;
+}
