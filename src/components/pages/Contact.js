@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../assets/luffy.png";
+// import avatar from "../../assets/luffy.png";
 import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { FaPhoneAlt } from "react-icons/fa";
 import "./contacts.css";
@@ -11,7 +11,7 @@ function Contact() {
         <div className="user-info">
           <h2>Lavri Djava Aristide A.</h2>
           <div className="user-image">
-            <img src={avatar} alt="avatar" />
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGd-n8qe2aZlA/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=04ywPsjqIlRm-zOtUaUGpEu72dLU_qA8Kq6PElO75Lo" alt="avatar" />
           </div>
           <p className="user-short-desc">
           <strong>Master degree in computer engineering with a progressive 4 years experiences in software development</strong>, 

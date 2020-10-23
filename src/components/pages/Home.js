@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import avatar from "../../assets/luffy.png";
+// import avatar from "../../assets/luffy.png";
 import { FaGithubSquare, FaLinkedin, FaYoutubeSquare } from "react-icons/fa";
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
       <div className="home-container">
         <div className="app-container">
           <div className="avatar">
-            <img src={avatar} alt="avatar" />
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGd-n8qe2aZlA/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=04ywPsjqIlRm-zOtUaUGpEu72dLU_qA8Kq6PElO75Lo" alt="avatar" />
           </div>
           <div className="banner">
             <h1 className="baner-titel">Back-End SoftWare Developer</h1>
@@ -31,7 +31,7 @@ function Home() {
                 <FaLinkedin />
               </a>
 
-              <a href="http://youtube.com" target="_blank">
+              <a href="https://www.youtube.com/channel/UCi-0Xjs3KJp3pVN0VtsSIKw?view_as=subscriber" target="_blank">
                 <FaYoutubeSquare />
               </a>
             </div>
